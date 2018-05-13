@@ -1,0 +1,75 @@
+<resources>
+    <!--Name of the app-->
+    <string name="app_name">Quiz App</string>
+
+    <!--Title of the quiz-->
+    <string name="quiz_title">Manchester United Quiz</string>
+
+    <!--First question-->
+    <string name="first_question">In what year was Man UTD founded?</string>
+    <!--First question, first option-->
+    <string name="first_question_first_option">1878</string>
+    <!--First question, second option-->
+    <string name="first_question_second_option">1988</string>
+    <!--First question, third option-->
+    <string name="first_question_third_option">1907</string>
+    <!--First question, fourth option-->
+    <string name="first_question_fourth_option">1876</string>
+
+    <!--Second question-->
+    <string name="second_question">Who is the all time goalscorer ?</string>
+    <!--Second question, first option-->
+    <string name="second_question_first_option">Rooney</string>
+    <!--Second question, second option-->
+    <string name="second_question_second_option">Cristiano Ronaldo</string>
+    <!--Second question, third option-->
+    <string name="second_question_third_option">Scholes</string>
+
+    <!--Third question-->
+    <string name="third_question">What is the name of Man UTDs stadium?</string>
+    <!--Third question, first option-->
+    <string name="third_question_first_option">Anfield</string>
+    <!--Third question, second option-->
+    <string name="third_question_second_option">Old Trafford</string>
+    <!--Third question, third option-->
+    <string name="third_question_third_option">Emirates</string>
+
+    <!--Fourth question-->
+    <string name="fourth_question">What is the nickname of Man UTDs stadium?</string>
+    !--Fourth question, first option-->
+    <string name="fourth_question_first_option">Teatrul Viselor</string>
+    <!--Fourth question, second option-->
+    <string name="fourth_question_second_option">The Theatre of Dreams</string>
+    <!--Fourth question, third option-->
+    <string name="fourth_question_third_option">El Teatro de los Suenos</string>
+
+    <!--Fifth question-->
+    <string name="fifth_question">How many times Champions of England?</string>
+    !--Fifth question, first option-->
+    <string name="fifth_question_first_option">19</string>
+    <!--Fifth question, second option-->
+    <string name="fifth_question_second_option">28</string>
+    <!--Fifth question, third option-->
+    <string name="fifth_question_third_option">23</string>
+    <!--Fifth question, fourth option-->
+    <string name="fifth_question_fourth_option">20</string>
+
+    <!--Sixth question-->
+    <string name="sixth_question">Who is there most succesfull manager?</string>
+    <!--Fifth question, first option-->
+    <string name="sixth_question_fill_in">Enter the answer here</string>
+
+    <!--Points text view-->
+    <string name="text_view">Total Points</string>
+
+    <!--Total points-->
+    <string name="grade_quiz">0</string>
+
+    <!--Button text-->
+    <string name="review">Review Score</string>
+
+    <!--Java string for the correct answer of the Edit Text-->
+    <string name="sir_ferguson">Sir Alex Ferguson</string>
+
+
+</resources>

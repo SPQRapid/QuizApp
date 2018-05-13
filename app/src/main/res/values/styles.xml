@@ -1,0 +1,287 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <!-- App branding color for the app bar-->
+        <item name="colorPrimary">#F44336</item>
+        <!-- Darker variant for the status bar and contextual app bars -->
+        <item name="colorPrimaryDark">#000000</item>
+        <!-- Theme UI controls like checkboxex and text fields-->
+        <item name="colorAccent">#D50000</item>
+    </style>
+
+    <!-- Style for the Main Title  (Text View) -->
+    <style name="manchesterUnitedQuiz">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- Style for the Title of the first Quiz (Text View) -->
+    <style name="questionOne">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <!-- Style for the first option of the first question (Radio Button) -->
+    <style name="questionOneFirstOption">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:layout_marginLeft">13dp</item>
+    </style>
+
+    <!-- Style for the second option of the first question (Radio Button) -->
+    <style name="questionOneSecondOption">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:layout_marginLeft">13dp</item>
+        <item name="android:layout_marginRight">13dp</item>
+    </style>
+
+    <!-- Style for the third option of the first question (Radio Button) -->
+    <style name="questionOneThirdOption">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:layout_marginRight">13dp</item>
+    </style>
+
+    <!-- Style for the fourth option of the first question (Radio Button) -->
+    <style name="questionOneFourthOption">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <!-- Style for the Title of the second Quiz (Text View) -->
+    <style name="questionTwo">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <!-- Style for the first option of the second question (Radio Button) -->
+    <style name="questionTwoFirstOption">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:layout_marginLeft">13dp</item>
+    </style>
+
+    <!-- Style for the second option of the second question (Radio Button) -->
+    <style name="questionTwoSecondOption">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:layout_marginLeft">13dp</item>
+        <item name="android:layout_marginRight">13dp</item>
+    </style>
+
+    <!-- Style for the third option of the second question (Radio Button) -->
+    <style name="questionTwoThirdOption">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:layout_marginRight">13dp</item>
+    </style>
+
+    <!-- Style for the Title of the third Quiz (Text View) -->
+    <style name="questionThree">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <!-- Style for the first option of the third question (Radio Button) -->
+    <style name="questionThreeFirstOption">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:layout_marginLeft">13dp</item>
+    </style>
+
+    <!-- Style for the second option of the third question (Radio Button) -->
+    <style name="questionThreeSecondOption">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:layout_marginLeft">13dp</item>
+        <item name="android:layout_marginRight">13dp</item>
+    </style>
+
+    <!-- Style for the third option of the third question (Radio Button) -->
+    <style name="questionThreeThirdOption">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:layout_marginRight">13dp</item>
+    </style>
+
+    <!-- Style for the Title of the fourth Quiz (Text VIew) -->
+    <style name="questionFour">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <!-- Style for the first option of the fourth question (Check Box) -->
+    <style name="questionFourFirstOption">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:layout_marginLeft">13dp</item>
+        <item name="android:paddingLeft">13dp</item>
+    </style>
+
+    <!-- Style for the second option of the fourth question (Check Box) -->
+    <style name="questionFourSecondOption">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:layout_marginLeft">13dp</item>
+        <item name="android:paddingLeft">13dp</item>
+    </style>
+
+    <!-- Style for the third option of the fourth question (Check Box) -->
+    <style name="questionFourThirdOption">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:layout_marginLeft">13dp</item>
+        <item name="android:paddingLeft">13dp</item>
+    </style>
+
+    <!-- Style for the Title of the fifth Quiz (Text View) -->
+    <style name="questionFive">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <!-- Style for the first option of the fifth question (Radio Button) -->
+    <style name="questionFiveFirstOption">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:layout_marginLeft">13dp</item>
+    </style>
+
+    <!-- Style for the second option of the fifth question (Radio Button) -->
+    <style name="questionFiveSecondOption">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:layout_marginLeft">13dp</item>
+        <item name="android:layout_marginRight">13dp</item>
+    </style>
+
+    <!-- Style for the third option of the fifth question (Radio Button) -->
+    <style name="questionFiveThirdOption">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:layout_marginRight">13dp</item>
+    </style>
+
+    <!-- Style for the fourth option of the fifth question (Radio Button) -->
+    <style name="questionFiveFourthOption">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <!-- Style for the Title of the sixth Quiz (Text View) -->
+    <style name="questionSix">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:textIsSelectable">true</item>
+    </style>
+
+    <!-- Style for the Title of the edit text (Edit Text) -->
+    <style name="fillBox">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:inputType">textCapWords</item>
+    </style>
+
+    <!-- Style for the Total Points (Text View) -->
+    <style name="totalPoints">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <!-- Style for the Total Points NUMBER (Text View) -->
+    <style name="totalPointsNumber">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textAppearance">?android:textAppearanceLarge</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">7dp</item>
+        <item name="android:layout_marginBottom">7dp</item>
+        <item name="android:layout_below">@id/text_points</item>
+    </style>
+
+    <!-- Style for the Button Review Score (Button) -->
+    <style name="buttonReview">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:onClick">reviewScore</item>
+        <item name="android:layout_below">@id/quiz_grade</item>
+    </style>
+
+
+</resources>

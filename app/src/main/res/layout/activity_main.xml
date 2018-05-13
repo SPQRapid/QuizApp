@@ -1,0 +1,183 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/manchesterUnitedQuiz"
+            android:text="@string/quiz_title" />
+
+        <TextView
+            style="@style/questionOne"
+            android:text="@string/first_question" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/first_year"
+                style="@style/questionOneFirstOption"
+                android:text="@string/first_question_first_option" />
+
+            <RadioButton
+                android:id="@+id/second_year"
+                style="@style/questionOneSecondOption"
+                android:text="@string/first_question_second_option" />
+
+            <RadioButton
+                android:id="@+id/third_year"
+                style="@style/questionOneThirdOption"
+                android:text="@string/first_question_third_option" />
+
+            <RadioButton
+                android:id="@+id/fourth_year"
+                style="@style/questionOneFourthOption"
+                android:text="@string/first_question_fourth_option" />
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/questionTwo"
+            android:text="@string/second_question"
+            android:textAppearance="?android:textAppearanceMedium" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/wayne_rooney"
+                style="@style/questionTwoFirstOption"
+                android:text="@string/second_question_first_option" />
+
+            <RadioButton
+                android:id="@+id/cristiano_ronaldo"
+                style="@style/questionTwoSecondOption"
+                android:text="@string/second_question_second_option" />
+
+            <RadioButton
+                android:id="@+id/paul_scholes"
+                style="@style/questionTwoThirdOption"
+                android:text="@string/second_question_third_option" />
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/questionThree"
+            android:text="@string/third_question"
+            android:textStyle="italic" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/anfield_liverpool"
+                style="@style/questionThreeFirstOption"
+                android:text="@string/third_question_first_option" />
+
+            <RadioButton
+                android:id="@+id/old_trafford"
+                style="@style/questionThreeSecondOption"
+                android:text="@string/third_question_second_option" />
+
+            <RadioButton
+                android:id="@+id/emirates_arsenal"
+                style="@style/questionThreeThirdOption"
+                android:text="@string/third_question_third_option" />
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/questionFour"
+            android:text="@string/fourth_question"
+            android:textAppearance="?android:textAppearanceMedium" />
+
+        <CheckBox
+            android:id="@+id/boca_juniors"
+            style="@style/questionFourFirstOption"
+            android:text="@string/fourth_question_first_option" />
+
+        <CheckBox
+            android:id="@+id/united_stand"
+            style="@style/questionFourSecondOption"
+            android:text="@string/fourth_question_second_option" />
+
+        <CheckBox
+            android:id="@+id/united_spanish"
+            style="@style/questionFourThirdOption"
+            android:text="@string/fourth_question_third_option" />
+
+        <TextView
+            style="@style/questionFive"
+            android:text="@string/fifth_question"
+            android:textStyle="italic" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/champions_first"
+                style="@style/questionFiveFirstOption"
+                android:text="@string/fifth_question_first_option" />
+
+            <RadioButton
+                android:id="@+id/champions_second"
+                style="@style/questionFiveSecondOption"
+                android:text="@string/fifth_question_second_option" />
+
+            <RadioButton
+                android:id="@+id/champions_third"
+                style="@style/questionFiveThirdOption"
+                android:text="@string/fifth_question_third_option" />
+
+            <RadioButton
+                android:id="@+id/champions_fourth"
+                style="@style/questionFiveFourthOption"
+                android:text="@string/fifth_question_fourth_option" />
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/questionSix"
+            android:text="@string/sixth_question"
+            android:textStyle="italic" />
+
+        <EditText
+            android:id="@+id/sir_alex"
+            style="@style/fillBox"
+            android:hint="@string/sixth_question_fill_in" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/text_points"
+                style="@style/totalPoints"
+                android:text="@string/text_view" />
+
+            <TextView
+                android:id="@+id/quiz_grade"
+                style="@style/totalPointsNumber"
+                android:text="@string/grade_quiz" />
+
+            <Button
+                android:id="@+id/review_score"
+                style="@style/buttonReview"
+                android:text="@string/review" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</ScrollView>
